@@ -1,3 +1,4 @@
+{
 "durable_objects": {
   "bindings": [
     { "name": "QQ_QR_CHANNEL", "class_name": "QqQrChannel" }
@@ -6,7 +7,6 @@
 "migrations": [
   { "tag": "v1", "new_sqlite_classes": ["QqQrChannel"] }
 ]
-{
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "folia-major",
   "main": "./worker/index.ts",
